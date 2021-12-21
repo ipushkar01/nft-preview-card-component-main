@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+.attribution { 
+    font-size: 11px;
+    text-align: bottom;
+    position: absolute;
+    color: white;
+    margin-top: 40%; 
+}
+.attribution a { 
+    color: hsl(178, 100%, 50%);
+    text-decoration: none; 
+    font-weight: 300;
+}
+h4{
+    font-weight: 300;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 500px;
+    position: relative;
+    border-radius: 3%;
+}
+img{
+    cursor: pointer;
+}
+.main{
+    width: 250px;
+    height: 230px;
+    position: relative;
+    padding: 25px;
+    border-radius: 12%;
+    cursor: pointer;
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    margin-top: -30px;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+p{
+    color: hsl(215, 56%, 72%);
+    padding: 25px;
+    margin-top: -40px;
+    font-size: 18px;
+    font-weight: 300;
+}
+h3{
+    padding: 40px;
+    color: hsl(178, 100%, 50%);
+    font-size: 15px;
+    margin-top: -35px;
+    font-weight: 300;
+}
+.icon_diamond{
+    padding: 25px;
+    position: absolute;
+    margin-top: -20px;
+}
+.clock{
+    margin-top: -58px;
+    padding-left: 57%;
+    position: absolute;
+}
+h6{
+    color: #8bacd9;
+    margin-top: -60px;
+    padding-left: 65%;
+    font-weight: 300;
+    font-size: 15px;
+}
+hr{
+    width: 80%;
+    margin: 25px;
+    margin-top: 25px;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+.avatar{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 22px;
+    margin-top: -10px;
+}
+h5{
+    padding: 25px;
+    font-weight: 300;
+    margin-top: -25px;
+    font-size: 15px;
+    margin-left: 50px;
+    color: hsl(215, 51%, 70%);
+}
+h5 span{
+    font-weight: 4  00;
+    color: white;
+}
+.eye_bg{
+    width: 250px;
+    height: 230px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 5%;
+    z-index: 1;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+}
+.eye{
+    position: absolute;
+    z-index: 2;
+    padding: 40%;
+    margin-left: 5px;
+    opacity: 0;
+}
+
+h2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+h5 span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.eye:hover{
+   opacity: 1;
+}
+img:hover .eye_bg{
+    opacity: .4s;
+}
+
+@media screen and (max-width: 375px) {
+    .attribution { 
+        font-size: 11px;
+        text-align: bottom;
+        position: absolute;
+        color: white;
+        margin-top: 150%; 
+    }
+}
